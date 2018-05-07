@@ -835,4 +835,38 @@ h3 {
 	}
 }
 /*blog end*/
+
+/*map start*/
+	.map{
+		margin: $indent-block 0 $indent-block 0;
+		width: 100%;
+		height: 240px;
+		position: relative;
+		.map-overlay{
+			text-transform: uppercase;
+			font-weight: bold;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background: rgba(255, 255, 255, 0.7);
+			z-index: 2;
+			font-size: 26px;
+			cursor: pointer;
+			color: $accent-4;
+			.text{
+				margin: 15px 0;
+			}
+			.hr {
+				border: 1px solid $accent-4;
+				margin: 0 auto;
+			}
+		}
+	}
+/*map end*/
 @import "media"; // Always at the end

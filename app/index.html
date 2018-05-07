@@ -16,7 +16,7 @@
 	<meta name="theme-color" content="#000">
 	<link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
-
+	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
 </head>
 
 <body>
@@ -635,9 +635,16 @@
 		<!--blog end-->
 
 		<!--map start-->
-		<section class="map">
+		<!-- <section class="map">
 			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A60d3f6660701d1fd2560dc8875df52d80d793f5968e08cb8ee292b597dbc3af6&amp;width=100%25&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
-		</section>
+		</section> -->
+		<div id="YMapsID" class="map">
+				<div class="map-overlay">
+					<span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					<span class="text">Open map</span>
+					<hr class="hr">
+				</div> 
+		</div>
 		<!--map end-->
 
 		<!--footer start-->
